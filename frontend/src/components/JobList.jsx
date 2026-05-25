@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ViewJob from './ViewJob';
+import '../index.css'
 
 export default function JobList() {
   const [jobs, setJobs] = useState([]);
